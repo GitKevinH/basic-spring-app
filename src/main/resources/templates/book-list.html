@@ -18,8 +18,8 @@
     <td th:text="${book.title}"></td>
     <td th:text="${book.author.name}"></td>
     <td>
-      <a th:href="@{/books-update/{id}(id=${book.id})}">Edit</a>
-      <a th:href="@{/books-delete/{id}(id=${book.id})}">Delete</a>
+      <a th:href="@{/books/update/{id}(id=${book.id})}">Edit</a>
+      <a th:href="@{/books/delete/{id}(id=${book.id})}">Delete</a>
     </td>
   </tr>
 </table>
